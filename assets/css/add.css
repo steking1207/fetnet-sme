@@ -1,0 +1,14 @@
+/***************************** Do not write your css at here,  this is outsourcing use, if you want write new css, create a new css file please
+******************************/
+.text-line { color: #00c300 !important; }
+
+.bg-line { background-color: #00c300; color: #fff; }
+
+.icon-arw-left-4 { background-image: url("../img/ui/icon-arw-left-4.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) { .icon-arw-left-4 { background-image: url("../img/ui/icon-arw-left-4@2x.png"); -moz-background-size: 8px, 14px; -o-background-size: 8px, 14px; -webkit-background-size: 8px, 14px; background-size: 8px, 14px; } }
+
+.icon-arw-right-4 { background-image: url("../img/ui/icon-arw-right-4.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) { .icon-arw-right-4 { background-image: url("../img/ui/icon-arw-right-4@2x.png"); -moz-background-size: 8px, 14px; -o-background-size: 8px, 14px; -webkit-background-size: 8px, 14px; background-size: 8px, 14px; } }
+
+.icon-tag-line { background-image: url("../img/ui/icon-tag-line.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) { .icon-tag-line { background-image: url("../img/ui/icon-tag-line@2x.png"); -moz-background-size: 15px, 24px; -o-background-size: 15px, 24px; -webkit-background-size: 15px, 24px; background-size: 15px, 24px; } }

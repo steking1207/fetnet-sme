@@ -1,0 +1,417 @@
+﻿@charset "UTF-8";
+
+/***RESET***/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: sans-serif;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;  margin: 0;
+  padding: 0;
+}
+a, a:hover, a:active{ color:#000; text-decoration:none;}
+
+/***DEFAULT**/
+html, body{ margin: 0px; width: 100%; -webkit-text-size-adjust:none; -webkit-overflow-scrolling: touch; }
+body {
+	margin:auto;
+	padding: 0px;
+	text-align:center;
+	height:100%;
+	overflow:scroll;
+	font-family:sans-serif;
+	overflow-x: hidden;
+}
+.Clearfloat {
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+#header {
+	float: center;
+	color: #ffffff;
+	text-decoration: none;
+	height: 64px;
+	background-image:-webkit-linear-gradient(left, #ffffff 39.9%,#e71a0f 40%);
+	margin: 0 auto;
+	text-align:center;
+}
+#header_main {
+    width: 100%;
+    height: 64px;
+    background-color: #e71a0f;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1280px;
+    position: relative;
+}
+#header .logo {
+	float: left;
+	text-align: right;
+	width: 500px;
+	background-color: #ffffff;
+}
+#header .index {
+	width:160px;
+	text-align: left;
+	font-size: 16px;
+	float: right;
+	padding-top: 24px;
+}
+#header .index A:link {
+	text-decoration: none;
+	color: #ffffff;
+}
+#header .index A:visited {
+	text-decoration: none;
+	color: #ffffff;
+}
+#header .index A:hover {
+	color: #ffffff;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #ffffff;
+}
+#container{
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+#container .kv{
+	background-color: #fff;
+	margin: auto;
+	height: 380px;
+	position: relative;
+	background: url(../img/products/line/line-banner.jpg) center no-repeat #01b901;
+}
+#container .kv .posfix {
+  position: relative;
+  width: 910px;
+  height: 100%;
+  margin: auto;
+}
+#container .kv .posfix .activity{
+	display: inline-block;
+	width: 390px;
+	height: 60px;
+	position: absolute;
+	bottom: 40px;
+	left: 50%;
+	margin-left: -195px;
+}
+
+#container .kv_clock{
+	background-color: #fff;
+	margin: auto;
+	height: 380px;
+	position: relative;
+	background: url(../img/products/clock/clockapp-banner.jpg) center no-repeat #fff;
+}
+#container .kv_clock .posfix {
+  position: relative;
+  width: 910px;
+  height: 100%;
+  margin: auto;
+}
+#container .kv_clock .posfix .activity {
+    display: inline-block;
+    width: 390px;
+    height: 60px;
+    position: absolute;
+    right: 55px;
+    bottom: 79px;
+}
+#container .kv_pos{
+	background-color: #fff;
+	margin: auto;
+	height: 380px;
+	position: relative;
+	background: url(../img/products/pos/pos-banner.jpg) center no-repeat #fae9d7;
+}
+#container .kv_pos .posfix {
+  position: relative;
+  width: 910px;
+  height: 100%;
+  margin: auto;
+}
+#container .kv_pos .posfix .activity {
+  display: inline-block;
+  width: 390px;
+  height: 60px;
+  position: absolute;
+	right: 55px;
+	bottom: 80px;
+}
+#container .kv_nas{
+	background-color: #fff;
+	margin: auto;
+	height: 380px;
+	position: relative;
+	background: url(../img/products/nas/nas-banner.jpg) center no-repeat #fff;
+}
+#container .kv_nas .posfix{
+	position: relative;
+	width: 910px;
+	height: 100%;
+	margin: auto;
+}
+#container .kv_nas .posfix .activity {
+  display: inline-block;
+  width: 390px;
+  height: 60px;
+  position: absolute;
+  bottom: 45px;
+  left: 65px;
+}
+#container .kv_storeapp{
+	background-color: #fff;
+	margin: auto;
+	height: 380px;
+	position: relative;
+	background: url(../img/products/storeapp/storeapp-banner.jpg) center no-repeat #fff;
+}
+#container .kv_storeapp .posfix {
+  position: relative;
+  width: 910px;
+  height: 100%;
+  margin: auto;
+}
+#container .kv_storeapp .posfix .activity {
+  display: inline-block;
+  width: 390px;
+  height: 60px;
+  position: absolute;
+  right: 55px;
+	bottom: 80px;
+}
+#container .kv_volte{
+	background-color: #fff;
+	margin: auto;
+	height: 380px;
+	position: relative;
+	background: url(../img/products/volte/volte-banner.jpg) center no-repeat #fff;
+}
+#container .kv_volte .posfix {
+  position: relative;
+  width: 910px;
+  height: 100%;
+  margin: auto;
+}
+#container .kv_volte .posfix .activity {
+  display: inline-block;
+  width: 390px;
+  height: 60px;
+  position: absolute;
+  right: 55px;
+	bottom: 80px;
+}
+#container .kv_monitor{
+	background-color: #fff;
+	margin: auto;
+	height: 380px;
+	position: relative;
+	background: url(../img/products/monitor/monitor-banner.jpg) center no-repeat #fff;
+}
+#container .kv_monitor .posfix {
+  position: relative;
+  width: 910px;
+  height: 100%;
+  margin: auto;
+}
+#container .kv_monitor .posfix .activity {
+  display: inline-block;
+  width: 390px;
+  height: 60px;
+  position: absolute;
+  bottom: 115px;
+  left: 50%;
+  margin-left: -195px;
+}
+#container_main{
+	width: 910px;
+	margin: 0 auto;
+	position: relative;
+}
+#menu{
+    width: 100%;
+	height: 68px;
+    background: #333;
+	float: center;
+	margin: 0 auto;
+}
+#menu_main{
+	width: 910px;
+	height: 68px;
+	background: #333;
+	margin: 0 auto;
+	position: relative;
+}
+#menu_main .item01{
+	width: 303px;
+	height: 68px;
+	background: url(../img/products/line/line-menu-01.jpg);
+	float:left;
+	border: 0;
+    display: block;
+}
+#menu_main .item01:hover{
+	width: 303px;
+	height: 68px;
+	background: url(../img/products/line/line-menu-a.jpg);
+	float:left;
+	border: 0;
+    display: block;
+}
+#menu_main .line{
+	width: 1px;
+	height: 68px;
+	background: url(../img/products/line/line-menu-line.jpg);
+	float:left;
+	border: 0;
+    display: block;
+}
+#menu_main .item02{
+	width: 302px;
+	height: 68px;
+	background: url(../img/products/line/line-menu-02.jpg);
+	float:left;
+	border: 0;
+    display: block;
+}
+#menu_main .item02:hover{
+	width: 302px;
+	height: 68px;
+	background: url(../img/products/line/line-menu-b.jpg);
+	float:left;
+	border: 0;
+    display: block;
+}
+#menu_main .item03{
+	width: 303px;
+	height: 68px;
+	background: url(../img/products/line/line-menu-03.jpg);
+	float:left;
+	border: 0;
+    display: block;
+}
+#menu_main .item03:hover{
+	width: 303px;
+	height: 68px;
+	background: url(../img/products/line/line-menu-c.jpg);
+	float:left;
+	border: 0;
+    display: block;
+}
+#ad_box{
+	width: 120px;
+	height: 210px;
+	display: block;
+	position: absolute;
+	right: 0px;
+	top: 380px;
+	z-index: 999;
+}
+
+#container .tip .btn {cursor: pointer; }
+#container .tip .content {display: none; }
+
+#container .tip01 .btn01 {cursor: pointer; }
+#container .tip01 .content01 {display: none; }
+
+#container .tip02 .btn02 {cursor: pointer; }
+#container .tip02 .content02 {display: none; }
+
+#container .tip03 .btn03 {cursor: pointer; }
+#container .tip03 .content03 {display: none; }
+
+#container .tip04 .btn04 {cursor: pointer; }
+#container .tip04 .content04 {display: none; }
+
+#container .tip05 .btn05 {cursor: pointer; }
+#container .tip05 .content05 {display: none; }
+
+#container .tip06 .btn06 {cursor: pointer; }
+#container .tip06 .content06 {display: none; }
+
+/*影片*/
+.videoBox{ position: relative; width: 602px; height: 300px;  margin: 15px auto; background-color: #000;}
+.videoBox a{background: url(../img/products/volte/video_volte.jpg);width: 602px; height: 300px;border: 1px solid #adadad; display: inline-flex;}
+.video-overlay{ position:absolute; left: 0; top: 0; display:block; width: 100%; height: 100%; background-color: black; opacity: 0;-moz-transition: all 0.2s ease; -o-transition: all 0.2s ease; -webkit-transition: all 0.2s ease; transition: all 0.2s ease;}
+.videoBox a:hover .video-overlay{ opacity: .4}
+.img-fluid { height: auto;vertical-align: middle; margin: auto !important; width: 130px; z-index: 10;}
+.img-bg{ position: absolute; left: 0; top: 0;}
+.fancybox-is-open .fancybox-content{-webkit-animation:fadeInDown .3s ease-out;-moz-animation:fadeInDown .3s ease-out; overflow: hidden;}
+@keyframes fadeInDown
+{
+	0% {opacity:0; transform:translate3d(0,-100%,0)}
+	100% {opacity:1; transform:none}
+}
+a:focus, a:active {outline:0;}
+
+#footer {
+	background-color:#bfbfbf;
+	color: #626262;
+	margin: 0 auto;
+	width: 100%;
+	font-size: 12px;
+	line-height: 14px;
+	display:inline-block;
+	padding: 37px;
+}
+#footer a {
+  color: #333333;
+	text-decoration: none;
+}
+#footer a:hover {
+	color: #333333;
+	text-decoration: underline;
+}
+#footer .ft_top {
+	text-align:center;
+	width: auto;
+	line-height:20px;
+}
+
+map *:focus{
+outline:none;
+}
+
