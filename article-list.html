@@ -369,17 +369,28 @@
         // Tab Link
         var POS = '#tab-pos'
         var OFFICE = '#tab-office'
+        var LINE = '#tab-line'
         var hash = document.location.hash;
         var prefix = "tab_"
         if (hash === POS) {
           $(OFFICE).removeClass("show active").attr('aria-expanded', false)
+          $(LINE).removeClass("show active").attr('aria-expanded', false)
           $(POS).addClass("show active").attr('aria-expanded', true)
           window.location.hash = POS
           setTimeout(function () {
             $("#pos_anchor").addClass('active')
           }, 300)
+        } else if (hash === LINE) {
+          $(POS).removeClass("show active").attr('aria-expanded', false)
+          $(OFFICE).removeClass("show active").attr('aria-expanded', false)
+          $(LINE).addClass("show active").attr('aria-expanded', true)
+          window.location.hash = LINE
+          setTimeout(function () {
+            $('#line_anchor').addClass('active')
+          }, 300)
         } else {
           $(POS).removeClass("show active").attr('aria-expanded', false)
+          $(LINE).removeClass("show active").attr('aria-expanded', false)
           $(OFFICE).addClass("show active").attr('aria-expanded', true)
           window.location.hash = OFFICE
           setTimeout(function () {

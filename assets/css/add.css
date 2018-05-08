@@ -4,6 +4,8 @@
 
 .bg-line { background-color: #00c300; color: #fff; }
 
+hr.hr-line { border-style: dotted; border-color: #00c300; }
+
 .icon-arw-left-4 { background-image: url("../img/ui/icon-arw-left-4.png"); }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) { .icon-arw-left-4 { background-image: url("../img/ui/icon-arw-left-4@2x.png"); -moz-background-size: 8px, 14px; -o-background-size: 8px, 14px; -webkit-background-size: 8px, 14px; background-size: 8px, 14px; } }
 
