@@ -14,3 +14,40 @@ hr.hr-line { border-style: dotted; border-color: #00c300; }
 
 .icon-tag-line { background-image: url("../img/ui/icon-tag-line.png"); }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) { .icon-tag-line { background-image: url("../img/ui/icon-tag-line@2x.png"); -moz-background-size: 15px, 24px; -o-background-size: 15px, 24px; -webkit-background-size: 15px, 24px; background-size: 15px, 24px; } }
+
+.text-blue-dark { color: #185390; }
+
+.text-cloud-office { color: #eb3c00; }
+
+.text-cloud-storage { color: #bd123e; }
+
+.text-cloud-monitor { color: #1b90cb; }
+
+.bg-cloud-offic { background-color: #eb3c00; }
+
+.bg-cloud-storage { background-color: #bd123e; }
+
+.bg-cloud-monitor { background-color: #1b90cb; }
+
+.hr-short { width: 40px; border-top-width: 3px; }
+.hr-short.hr-cloud-office { border-color: #eb3c00; }
+.hr-short.hr-cloud-storage { border-color: #bd123e; }
+.hr-short.hr-cloud-monitor { border-color: #1b90cb; }
+
+.more { top: -3px; left: 20px; /* 18-4(px when inline) */ position: relative; display: inline-block; font-size: 1.18rem; }
+.more:hover { text-decoration: none; }
+.more:hover span { color: #fff100; }
+
+.icon-cart { width: 32px; height: 30px; background-image: url("../img/event-cloud/icon-buy.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) { .icon-cart { background-image: url("../img/event-cloud/icon-buy@2x.png"); -moz-background-size: 32px, 30px; -o-background-size: 32px, 30px; -webkit-background-size: 32px, 30px; background-size: 32px, 30px; } }
+
+.table .v-top { vertical-align: top !important; }
+
+.table-cloud { width: 100% !important; max-width: 830px !important; }
+.table-cloud tr.border-cloud-office td { border-bottom: 2px solid #eb3c00; }
+.table-cloud tr.border-cloud-storage td { border-bottom: 2px solid #bd123e; }
+.table-cloud tr.border-cloud-monitor td { border-bottom: 2px solid #1b90cb; }
+
+.table-cloud-storage td { padding-left: .25rem; padding-right: .25rem; }
+
+.badge.bg-cloud-storage:after { display: none; }
