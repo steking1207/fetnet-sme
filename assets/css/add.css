@@ -1,4 +1,5 @@
-/***************************** Do not write your css at here,  this is outsourcing use, if you want write new css, create a new css file please
+@charset "UTF-8";
+/***************************** Do not write your css at here,  this is outsourcing use, if you want write new css, create a new css file please 請勿修改
 ******************************/
 .text-line { color: #00c300 !important; }
 
@@ -34,20 +35,27 @@ hr.hr-line { border-style: dotted; border-color: #00c300; }
 .hr-short.hr-cloud-storage { border-color: #bd123e; }
 .hr-short.hr-cloud-monitor { border-color: #1b90cb; }
 
-.more { top: -3px; left: 20px; /* 18-4(px when inline) */ position: relative; display: inline-block; font-size: 1.18rem; }
+.more { top: -3px; position: relative; display: inline-block; font-size: 1.18rem; }
 .more:hover { text-decoration: none; }
 .more:hover span { color: #fff100; }
 
 .icon-cart { width: 32px; height: 30px; background-image: url("../img/event-cloud/icon-buy.png"); }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) { .icon-cart { background-image: url("../img/event-cloud/icon-buy@2x.png"); -moz-background-size: 32px, 30px; -o-background-size: 32px, 30px; -webkit-background-size: 32px, 30px; background-size: 32px, 30px; } }
 
-.table .v-top { vertical-align: top !important; }
-
-.table-cloud { width: 100% !important; max-width: 830px !important; }
+.table-cloud { width: 100% !important; max-width: 830px !important; border: 0; }
+.table-cloud thead th { border-top: 0; border-left: 0; border-bottom-width: 1px; border-color: #fff; }
+.table-cloud thead th:last-child { border-right: 0; }
+.table-cloud .v-top { vertical-align: top !important; }
 .table-cloud tr.border-cloud-office td { border-bottom: 2px solid #eb3c00; }
 .table-cloud tr.border-cloud-storage td { border-bottom: 2px solid #bd123e; }
 .table-cloud tr.border-cloud-monitor td { border-bottom: 2px solid #1b90cb; }
+.table-cloud tr td:first-child { border-left: 1px solid #aaa !important; }
+.table-cloud tr td:last-child { border-right: 1px solid #aaa !important; }
+.table-cloud tr:last-child td { border-bottom: 1px solid #aaa !important; }
 
 .table-cloud-storage td { padding-left: .25rem; padding-right: .25rem; }
 
 .badge.bg-cloud-storage:after { display: none; }
+
+.nav-cloud a { margin: 0 .5rem; opacity: .6; text-decoration: none; }
+.nav-cloud a:hover, .nav-cloud a:focus { opacity: 1; }
