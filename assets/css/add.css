@@ -24,7 +24,7 @@ hr.hr-line { border-style: dotted; border-color: #00c300; }
 
 .text-cloud-monitor { color: #1b90cb; }
 
-.bg-cloud-offic { background-color: #eb3c00; }
+.bg-cloud-office { background-color: #eb3c00; }
 
 .bg-cloud-storage { background-color: #bd123e; }
 
@@ -43,6 +43,7 @@ hr.hr-line { border-style: dotted; border-color: #00c300; }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) { .icon-cart { background-image: url("../img/event-cloud/icon-buy@2x.png"); -moz-background-size: 32px, 30px; -o-background-size: 32px, 30px; -webkit-background-size: 32px, 30px; background-size: 32px, 30px; } }
 
 .table-cloud { width: 100% !important; max-width: 830px !important; border: 0; }
+.table-cloud li { padding-left: .6rem; list-style: none; background: url("../img/event-cloud/dot.png") no-repeat left 6px; }
 .table-cloud thead th { border-top: 0; border-left: 0; border-bottom-width: 1px; border-color: #fff; }
 .table-cloud thead th:last-child { border-right: 0; }
 .table-cloud .v-top { vertical-align: top !important; }
@@ -57,5 +58,4 @@ hr.hr-line { border-style: dotted; border-color: #00c300; }
 
 .badge.bg-cloud-storage:after { display: none; }
 
-.nav-cloud a { margin: 0 .5rem; opacity: .6; text-decoration: none; }
-.nav-cloud a:hover, .nav-cloud a:focus { opacity: 1; }
+.nav-cloud a { margin: 0 .5rem; text-decoration: none; }
